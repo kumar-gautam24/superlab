@@ -1,0 +1,26 @@
+name: superlab
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  dio: ^5.7.0
+  equatable: ^2.0.7
+  flex_color_scheme: ^8.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  # flutter_html: ^2.2.1
+  flutter_widget_from_html: ^0.9.1
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
